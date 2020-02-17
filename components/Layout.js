@@ -15,16 +15,21 @@ const Layout = ({ children }) => {
     <Generic>
       <Navbar fixed="top" color="primary">
         <Navbar.Brand>
-          <Navbar.Item href="#">Bulma</Navbar.Item>
           <Navbar.Burger />
         </Navbar.Brand>
         <Navbar.Menu>
           <Navbar.Segment align="start">
-            <Link href="/">
-              <Navbar.Item>Home</Navbar.Item>
+            <Link href="/theory">
+              <Navbar.Item>Theory</Navbar.Item>
             </Link>
-            <Link href="/about">
-              <Navbar.Item>About</Navbar.Item>
+            <Link href="/guided-meditations">
+              <Navbar.Item>Guided Meditations</Navbar.Item>
+            </Link>
+            <Link href="/excercises">
+              <Navbar.Item>Excercises</Navbar.Item>
+            </Link>
+            <Link href="/art">
+              <Navbar.Item>Art</Navbar.Item>
             </Link>
             <Link href="/contact">
               <Navbar.Item>Contact</Navbar.Item>
@@ -32,12 +37,12 @@ const Layout = ({ children }) => {
           </Navbar.Segment>
         </Navbar.Menu>
       </Navbar>
-      <Section backgroundColor="primary">
+      <Section>
         <Hero>
           <Hero.Body>
             <Container>
               <Title as="h1" align="center" color="white">
-                Welcome to Next!
+                Sea of Awareness
               </Title>
             </Container>
           </Hero.Body>
@@ -48,7 +53,7 @@ const Layout = ({ children }) => {
       </Container>
       <Footer>
         <Content textAlign="centered">
-          <p>&copy; ZEIT, Inc. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Sea of Awareness | All rights reserved.</p>
         </Content>
       </Footer>
     </Generic>
