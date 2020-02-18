@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import Head from 'next/head'
+
 import {
   Generic,
   Container,
@@ -13,6 +15,9 @@ import {
 const Layout = ({ children }) => {
   return (
     <Generic>
+      <Head>
+        <title>Sea of Awareness</title>
+      </Head>
       <Navbar fixed="top" color="primary">
         <Navbar.Brand>
           <Navbar.Burger />
