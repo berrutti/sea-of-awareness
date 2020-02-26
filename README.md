@@ -7,8 +7,8 @@ This is the site's repository. It was based on the [rbx & bulma-pro example](htt
 - Fork the project & clone locally.
 - Create an upstream remote and sync your local copy before you branch:
 
-git remote add upstream git@github.com:berrutti/sea-of-awareness.git
+> git remote add upstream git@github.com:berrutti/sea-of-awareness.git
 
-- Do the work, write good commit messages, and read the CONTRIBUTING file if there is one.
+- Do the work, write good commit messages.
 - Push to your origin repository.
 - Create a new PR in GitHub.
