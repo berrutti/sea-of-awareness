@@ -1,10 +1,13 @@
-//import Link from 'next/link'
-//import { Section, Card, Content, Title } from 'rbx'
+
+import { Section, Title } from 'rbx'
 import Layout from '../components/Layout'
 
 const Home = () => (
   <Layout>
-    <p>Was this tool helpful? Let us know how we can improve it</p>
+    <Section>
+      <Title as="h2">Welcome</Title>
+      This is Sea of Awareness
+    </Section>
   </Layout >
 )
 
