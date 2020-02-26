@@ -1,4 +1,4 @@
-import 'bulma-pro/css/bulma.css'
+import "rbx/index.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
