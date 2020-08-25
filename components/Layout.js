@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
             <Link href="/">
               <Navbar.Item>
                 <img
-                  src="./logo.png"
+                  src="/logo.png"
                   alt="Sea of Awareness"
                   role="presentation"
                 />
